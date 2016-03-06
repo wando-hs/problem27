@@ -1,6 +1,6 @@
 import Test.Hspec
 
-import Problem27 (group)
+import Problem27 (group, subsets)
 
 main :: IO ()
 main = hspec $ do
@@ -15,3 +15,8 @@ main = hspec $ do
          ["BC", "ADE"], ["BD", "ACE"], ["BE", "ACD"],
          ["CD", "ABE"], ["CE", "ABD"],
          ["DE", "ABC"]]
+
+  describe "subsets" $ do
+      it "should return all subsets with n elements from a given set" $ do
+        subsets 2 "ABCD"
+            `shouldBe` ["AB" :: [Char], "AC", "AD", "BC", "BD", "CD"]
