@@ -5,6 +5,7 @@ Setup:
 cabal sandbox init
 cabal update
 cabal install --only-dependencies
+cabal configure --enable-tests
 ```
 
 ### Run tests:
