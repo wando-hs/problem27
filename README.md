@@ -19,7 +19,7 @@ Example:
 ( ( (ALDO BEAT) (CARLA DAVID) (EVI FLIP GARY HUGO IDA) )
 ... )
 ```
-Note that we do not want permutations of the group members; i.e. ((ALDO BEAT) ...) is the same solution as ((BEAT ALDO) ...). However, we make a difference between ((ALDO BEAT) (CARLA DAVID) ...) and ((CARLA DAVID) (ALDO BEAT) ...).
+Note that we do not want permutations of the group members; i.e. `((ALDO BEAT) ...)` is the same solution as `((BEAT ALDO) ...)`. However, we make a difference between `((ALDO BEAT) (CARLA DAVID) ...)` and `((CARLA DAVID) (ALDO BEAT) ...)`.
 
 You may find more about this combinatorial problem in a good book on discrete mathematics under the term "multinomial coefficients".
 
